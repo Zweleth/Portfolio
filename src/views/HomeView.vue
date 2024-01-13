@@ -178,15 +178,6 @@
                     their websites development progress
                   </p>
                   <div class="buttons">
-                    <a href="" target="_blank">
-                      <div class="btn light">
-                        <p>Github file</p>
-                        <div class="bg">
-                          <p></p>
-                          <p>Github file</p>
-                        </div>
-                      </div>
-                    </a>
                     <a href="https://codesyncsa.web.app/" target="_blank">
                       <div class="go">
                         <p>
@@ -283,39 +274,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="item">
-                <div class="text">
-                  <p></p>
-                  <div class="buttons">
-                    <a href="" target="_blank">
-                      <div class="btn light">
-                        <p>Github file</p>
-                        <div class="bg">
-                          <p>Github file</p>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="">
-                      <div class="go">
-                        <p>
-                          Live site
-                          <img
-                            src="https://i.postimg.cc/J0KFLTvx/Polygon-1.png"
-                            alt=""
-                          />
-                        </p>
-                        <div class="bar"></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
 
-                <div class="image">
-                  <img src="" alt="" />
-                </div>
-              </div>
-            </div>
             <div class="carousel-item">
               <div class="item">
                 <div class="text">
@@ -522,7 +481,9 @@
             </div>
 
             <div class="icons">
-              <a href="https://web.facebook.com/thandolwethu.beko.9" target="_blank"
+              <a
+                href="https://web.facebook.com/thandolwethu.beko.9"
+                target="_blank"
                 ><i class="fa-brands fa-square-facebook"></i
               ></a>
               <a
@@ -596,6 +557,47 @@
         <a href="#contact" class="up">
           <img src="https://i.postimg.cc/xjhptvnw/up.png" alt="" />
         </a>
+        <section>
+          <div class="left">
+            <img src="https://i.postimg.cc/5tDMfVmt/Group-4-3.png" alt="" />
+            <p class="copy">
+              &copy2024 Made by Thandolwethu Beko<br />All rights reserved
+            </p>
+            <p>zwebeko@gmail.com</p>
+            <p>0638973295</p>
+            <p class="quote">
+              "Code is like humor. When you have to explain it, it’s bad."
+            </p>
+          </div>
+          <div>
+            <h5>Skills</h5>
+            <p>Web development</p>
+            <p>Web design</p>
+            <p>Animation</p>
+            <h5 class="heading">Socials</h5>
+            <a
+              href="https://web.facebook.com/thandolwethu.beko.9"
+              target="_blank"
+            >
+              <p>Facebook</p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/thandolwethu-beko-424222256/"
+              target="_blank"
+            >
+              <p>Linkedin</p>
+            </a>
+          </div>
+          <div>
+            <h5>Menu</h5>
+            <a href="#resume"><p>Resume</p></a>
+            <a href="#skilss"><p>Skills</p></a>
+            <a href="#projects"><p>Projects</p></a>
+            <a href="#testimonials"><p>Testimonials</p></a>
+            <a href="#about"><p>About</p></a>
+            <a href="#contact"><p>Contact</p></a>
+          </div>
+        </section>
       </footer>
     </div>
   </div>
@@ -974,5 +976,40 @@ footer .up {
 }
 footer .up img {
   height: 100%;
+  width: 100%;
+}
+footer > section {
+  display: flex;
+  gap: 5rem;
+}
+footer > section > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+footer p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+footer img {
+  width: 3.5rem;
+}
+footer h5 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+footer .heading {
+  margin-top: 0.3rem;
+}
+footer .copy {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+footer .left {
+  margin-right: auto;
+}
+footer .quote {
+  margin-top: 0.5rem;
 }
 </style>
