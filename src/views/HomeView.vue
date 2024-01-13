@@ -14,7 +14,7 @@
               web design, and animation.
             </p>
             <div class="buttons">
-              <a href="">
+              <a href="#contact">
                 <div class="btn dark">
                   <p>Hire me</p>
                   <div class="bg">
@@ -23,7 +23,7 @@
                   </div>
                 </div>
               </a>
-              <a href="">
+              <a href="#projects">
                 <div class="go">
                   <p>
                     Go to projects
@@ -492,12 +492,17 @@
               Right now I am looking to take the next step towards growing as a
               developer.
             </p>
-            <div class="btn light">
-              <p>View CV</p>
-              <div class="bg">
+
+            <a
+              href="https://www.canva.com/design/DAFgXOji9VQ/rpFy-c94_XCBq_zLIRTAfQ/view?utm_content=DAFgXOji9VQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              target="_blank"
+              ><div class="btn light">
                 <p>View CV</p>
+                <div class="bg">
+                  <p>View CV</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -506,27 +511,44 @@
         <div>
           <div class="text">
             <h4>Leave a message</h4>
+            <p>
+              If you believe my skills and experience align well with your
+              team's needs, please leave a message by completing the form, and I
+              will promptly respond to your inquiry.
+            </p>
             <div class="details">
               <p><i class="fa-solid fa-paper-plane"></i>zwebeko@gmail.com</p>
               <p><i class="fa-solid fa-phone"></i>063 897 3295</p>
             </div>
 
             <div class="icons">
-              <i class="fa-brands fa-square-facebook"></i>
-              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://web.facebook.com/thandolwethu.beko.9" target="_blank"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/thandolwethu-beko-424222256/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
-            <div class="btn light">
-              <p>View CV</p>
-              <div class="bg">
+
+            <a
+              href="https://www.canva.com/design/DAFgXOji9VQ/rpFy-c94_XCBq_zLIRTAfQ/view?utm_content=DAFgXOji9VQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              target="_blank"
+              ><div class="btn light">
                 <p>View CV</p>
+                <div class="bg">
+                  <p>View CV</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="form">
-            <form action="">
+            <form action="https://formspree.io/f/mqkjlqvp" method="post">
               <div class="form-floating">
                 <input
                   type="text"
+                  name="Fullname"
                   class="form-control"
                   id="floatingInput"
                   placeholder="e.g John Doe"
@@ -536,6 +558,7 @@
               <div class="form-floating">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   id="floatingInput"
                   placeholder="name@example.com"
@@ -545,13 +568,14 @@
               <div class="form-floating">
                 <textarea
                   class="form-control"
+                  name="message"
                   placeholder="Leave a comment here"
                   id="floatingTextarea2"
-                  style="height: 100px"
+                  style="height: 10rem"
                 ></textarea>
                 <label for="floatingTextarea2">Message</label>
               </div>
-              <div class="go">
+              <button class="go">
                 <p>
                   Send
                   <img
@@ -560,7 +584,7 @@
                   />
                 </p>
                 <div class="bar"></div>
-              </div>
+              </button>
             </form>
           </div>
         </div>
@@ -898,6 +922,8 @@ section > h4 {
 }
 .form .go {
   margin-top: 1rem;
+  background: none;
+  border: none;
 }
 .contact .text {
   display: flex;
@@ -905,6 +931,7 @@ section > h4 {
   align-items: flex-start;
   gap: 1rem;
   width: 40%;
+  text-align: left;
 }
 .contact .text .details {
   display: flex;
