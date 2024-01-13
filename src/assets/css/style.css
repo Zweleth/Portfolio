@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+--navy: #18182E;
+--gray: #ebe5e4;
+--orange: #EC5A40;
+}
+
+*:not(i),
+::before:not(i),
+::after:not(i) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  color: var(--navy);
+}
+
+.page {
+  width: 70rem;
+  max-height: 42rem;
+  background: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn, .btn:hover {
+    position: relative;
+    border: 0.1rem solid var(--navy);
+    border-radius: 0;
+}
+.bg {
+    position: absolute;
+    background-color: var(--navy);
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    top: 0;
+    left: 0;
+    border: 0.1rem solid var(--navy);
+    border-radius: 0;
+    
+}
+
+.btn p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.02rem 1rem;
+    height: fit-content;
+    color: var(--navy);
+    
+}
+.bg p {
+    color: var(--gray);
+    margin-top: 0.1rem;
+}
+.light .bg{
+    transform: translateX(-120%);
+}
+.light:hover .bg {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+.dark .bg{
+    transform: translateX(0%);
+}
+.dark:hover .bg {
+    transform: translateX(-120%);
+    transition: 0.6s;
+}
+.go {
+    position: relative;
+    width: fit-content;
+}
+.go .bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--navy);
+}
+.go p {
+    font-size: 0.8rem;
+    color: var(--navy);
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+.go:hover .bar{
+ animation: expand 0.4s ease-in-out forwards;
+}
+a {
+    text-decoration: none;
+}
+
+
+@keyframes expand {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
